@@ -13,5 +13,5 @@ float kdev(float * data, int n)
 
     float mean = sum / n;
     
-    return mean;
+    return sqrt(mean);
 }
